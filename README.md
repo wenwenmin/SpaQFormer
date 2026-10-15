@@ -10,7 +10,7 @@ The matching scores also provide differentiable targets for cell-type-level gene
 
 ## Figure 1
 
-[Open Figure 1: Overview of SpaQFormer](fig1.png)
+![Figure 1: Overview of SpaQFormer](fig1.png)
 
 Figure 1 summarizes the complete framework:
 
@@ -94,7 +94,7 @@ data/
 
 ### 2. Set the data paths
 
-Open `Run_NSCLC.ipynb` and update the two paths in the **Dataset paths and configuration** cell:
+Open [`Tutorial/Run_NSCLC.ipynb`](Tutorial/Run_NSCLC.ipynb) and update the two paths in the **Dataset paths and configuration** cell:
 
 ```python
 SC_FILE = Path("path/to/data/NSCLC_9_1_reference.h5ad")
@@ -104,11 +104,13 @@ CONFIG_FILE = Path("Config") / "Config_NSCLC.yaml"
 
 ### 3. Run the notebook
 
-Start Jupyter from the repository root so that the relative package and configuration paths resolve correctly:
+Start Jupyter from the repository root:
 
 ```bash
-jupyter notebook Run_NSCLC.ipynb
+jupyter notebook Tutorial/Run_NSCLC.ipynb
 ```
+
+The notebooks set their working directory to the repository root so that package imports, configuration paths, and output paths resolve correctly.
 
 Execute the cells from top to bottom. The notebook performs:
 

@@ -1,0 +1,22 @@
+epochs1: 80
+epochs2: 150
+Kn: 3
+gamma: 1.0
+alpha: 5.0
+beta: 0.2
+temperature: 0.7
+num_queries: 2
+num_heads: 2
+dropout: 0.1
+query_init_noise_std: 0.01
+query_diversity_weight: 0.01
+lr1: 0.0001
+lr2: 0.0001
+hidden_dims:
+- 512
+- 128
+hidden_dim: 128
+gnn_dims:
+- 128
+energy_loss_weight: 0.0
+spatial_loss_weight: 0.0

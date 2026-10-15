@@ -23,18 +23,18 @@ Figure 1 summarizes the complete framework:
 
 ## Installation
 
-The current experiments run in the Conda environment `STG` with Python 3.10, PyTorch 2.5.1, CUDA 12.1, and PyTorch Geometric 2.6.1.
+The current experiments run in the Conda environment `SpaQFormer` with Python 3.10, PyTorch 2.5.1, CUDA 12.1, and PyTorch Geometric 2.6.1.
 
 ### 1. Create the virtual environment
 
 ```bash
-conda create --name STG python=3.10
+conda create --name SpaQFormer python=3.10
 ```
 
 ### 2. Activate the environment
 
 ```bash
-conda activate STG
+conda activate SpaQFormer
 ```
 
 ### 3. Install dependencies
@@ -45,7 +45,7 @@ Run the command from the repository root:
 pip install -r requirements.txt
 ```
 
-The supplied `requirements.txt` uses the CUDA 12.1 wheels matching the current `STG` environment. For a CPU-only system or a different CUDA version, replace the PyTorch and PyTorch Geometric wheel sources with versions compatible with that system.
+The supplied `requirements.txt` uses the CUDA 12.1 wheels matching the current `SpaQFormer` environment. For a CPU-only system or a different CUDA version, replace the PyTorch and PyTorch Geometric wheel sources with versions compatible with that system.
 
 ## Repository structure
 
@@ -55,7 +55,7 @@ SpaQFormer/
 ├── SpaQFormer/              # Model, training, preprocessing, evaluation, and explanation code
 ├── Baseline/                # Baseline methods for comparison
 ├── Tutorial/                # Jupyter notebooks for tutorials
-├── requirements.txt         # Dependencies for the STG environment
+├── requirements.txt         # Dependencies for the SpaQFormer environment
 └── README.md
 ```
 

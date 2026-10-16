@@ -82,7 +82,7 @@ The Human NSCLC Lung9_1 dataset is used as the main running example.
 
 ### 1. Download the data
 
-Download the paired **Human NSCLC (Lung9_1)** reference and target datasets. The public download link will be added after the data package is released.
+Download the paired **Human NSCLC (Lung9_1)** reference and target datasets from [Zenodo](https://zenodo.org/records/23390067).
 
 Place the two files in a local data directory:
 

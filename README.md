@@ -8,10 +8,8 @@ Accurate cell-type annotation in cell-level spatial transcriptomics (ST) is esse
 
 The matching scores also provide differentiable targets for cell-type-level gene attribution. SpaQFormer combines Integrated Gradients, GradientShap, and Occlusion through Borda rank fusion to identify genes that support each predicted cell type. The supplied experiments cover seven paired scRNA-seq and cell-level ST datasets generated with CosMx SMI, Xenium, and MERFISH.
 
-## Overview
+## Datasets
 All the processed data used in this study have been uploaded to the Zenodo data repository: https://zenodo.org/records/23390067
-
-# Supplementary Tables
 
 ## Table S1. Summary of all experimental datasets used in this study.
 

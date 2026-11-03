@@ -8,6 +8,20 @@ Accurate cell-type annotation in cell-level spatial transcriptomics (ST) is esse
 
 The matching scores also provide differentiable targets for cell-type-level gene attribution. SpaQFormer combines Integrated Gradients, GradientShap, and Occlusion through Borda rank fusion to identify genes that support each predicted cell type. The supplied experiments cover seven paired scRNA-seq and cell-level ST datasets generated with CosMx SMI, Xenium, and MERFISH.
 
+## Overview
+All the processed data used in this study have been uploaded to the Zenodo data repository: https://zenodo.org/records/23390067
+
+Table S1. Summary of all experimental datasets used in this study.
+| Datasets | Tissue | ST cells | ST genes | ST types | Reference profiles | Reference genes | Reference types | Shared genes | Shared types | Platform | Reference |
+|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---|
+| Mouse Hypothalamic Preoptic Region (Mouse Hypothalamic) | Mouse hypothalamic preoptic region | 73,655 | 155 | 8 | 31,299 | 27,998 | 14 | 155 | 8 | MERFISH | (Mousehypothalamic) |
+| Mouse Primary Motor Cortex (Mouse MOp) | Mouse primary motor cortex | 280,186 | 253 | 23 | 176,584 | 31,053 | 147 | 253 | 19 | MERFISH | (MOP) |
+| Human Non-Small Cell Lung Cancer (Lung9_1) | Human non-small cell lung cancer | 85,904 | 952 | 15 | 52,698 | 33,694 | 40 | 952 | 15 | CosMx SMI | (Cosmx) |
+| Human Non-Small Cell Lung Cancer (Lung13) | Human non-small cell lung cancer | 82,843 | 952 | 16 | 52,698 | 33,694 | 40 | 952 | 15 | CosMx SMI | (Cosmx) |
+| Human Breast Cancer (XBC_rep1) | Human breast cancer | 167,780 | 307 | 19 | 30,365 | 18,082 | 19 | 307 | 19 | Xenium | (Xenium) |
+| Human Breast Cancer (XBC_rep2) | Human breast cancer | 118,752 | 307 | 19 | 30,365 | 18,082 | 19 | 307 | 19 | Xenium | (Xenium) |
+| Xenium Human Pancreas (Pancreas) | Human pancreatic adenocarcinoma | 190,962 | 474 | 16 | 47,171 | 33,538 | 28 | 474 | 8 | Xenium | (Xenium) |
+
 ## Figure 1
 
 ![Figure 1: Overview of SpaQFormer](fig1.png)
